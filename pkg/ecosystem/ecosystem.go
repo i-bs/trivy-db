@@ -25,6 +25,7 @@ const (
 
 	// OS ecosystems
 	Alpine      Type = "alpine"
+	BellSoft    Type = "bellsoft"
 	RedHat      Type = "redhat"
 	Debian      Type = "debian"
 	Ubuntu      Type = "ubuntu"

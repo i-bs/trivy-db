@@ -7,6 +7,7 @@ import (
 	"github.com/aquasecurity/trivy-db/pkg/vulnsrc/amazon"
 	"github.com/aquasecurity/trivy-db/pkg/vulnsrc/aqua"
 	"github.com/aquasecurity/trivy-db/pkg/vulnsrc/azure"
+	"github.com/aquasecurity/trivy-db/pkg/vulnsrc/bellsoft"
 	"github.com/aquasecurity/trivy-db/pkg/vulnsrc/bitnami"
 	"github.com/aquasecurity/trivy-db/pkg/vulnsrc/bundler"
 	"github.com/aquasecurity/trivy-db/pkg/vulnsrc/chainguard"
@@ -46,6 +47,7 @@ var (
 		// OS packages
 		alma.NewVulnSrc(),
 		alpine.NewVulnSrc(),
+		bellsoft.NewVulnSrc(),
 		redhat.NewVulnSrc(),
 		redhatoval.NewVulnSrc(),
 		debian.NewVulnSrc(),
